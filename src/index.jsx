@@ -1,11 +1,10 @@
 import { createRoot } from 'react-dom/client'
 
-const { log } = console
+import App from './App'
 
 function main() {
   const root = createRoot(document.getElementById('root'))
-  root.render(<h1>hello world</h1>)
-  log('hello world!')
+  root.render(<App />)
 }
 
 main()
