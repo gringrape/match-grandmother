@@ -1,9 +1,11 @@
 import CurationSection from './CurationSection'
 
+import Layout from './Layout'
+
 export default function MainPage() {
   return (
-    <div>
+    <Layout>
       <CurationSection />
-    </div>
+    </Layout>
   )
 }
